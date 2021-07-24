@@ -1,0 +1,163 @@
+html {
+  box-sizing: border-box;
+  color: #000;
+  font-family: PT Sans Narrow, sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  background-color: #bd027d;
+  padding: 0;
+  margin: 0;
+
+}
+
+header h1 {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-content: center;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+nav {
+  grid-row: 1;
+  grid-column: 1 / span 3;
+  justify-content: space-between;
+  grid-gap: 1rem;
+  align-self: center;
+  margin: 1.5em;
+}
+
+nav ul li {
+  font-size: 1.125rem;
+  font-family: PT Sans Narrow;
+  text-transform: uppercase;
+  border: 2px solid #960062;
+  padding: .5em;
+  border-radius: 6px;
+}
+
+header nav ul li a {
+  color: #eccee2;
+  text-decoration: none;
+}
+
+main {
+  margin: 1em;
+}
+
+h2 ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  grid-gap: 1rem;
+
+}
+
+section ul li {
+  display: grid;
+  grid-template-rows: auto;
+  border: 2px solid #afafaf;
+  border-radius: 6px;
+  margin: 0;
+}
+
+section ul li h3 {
+  grid-row: 3;
+  text-align: center;
+  background-color: #bebebe;
+  padding: 1em 0;
+}
+
+section ul li img {
+  grid-row: 2;
+  text-align: center;
+  width: 100%;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 1em;
+}
+
+section ul div img {
+  width: 3em;
+  order: -1;
+  background-color: #bebebe;
+  border-radius: 1em 0 0 1em;
+  padding-left: 1em;
+}
+
+section ul div strong {
+  padding: 1em;
+  background-color: #bebebe;
+  font-family: Georgia, serif;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1.5em;
+  font-size: 0.875rem;
+  align-self: center;
+  text-align: center;
+}
+
+footer p {
+  margin:0;
+}
+
+footer a {
+  color:#323232;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 1.125em;
+}
