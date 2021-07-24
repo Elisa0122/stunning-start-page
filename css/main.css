@@ -55,13 +55,13 @@ nav {
   grid-column: 1 / span 3;
   justify-content: space-between;
   grid-gap: 1rem;
-  align-self: center;
+  align-items: center;
   margin: 1.5em;
 }
 
 nav ul li {
   font-size: 1.125rem;
-  font-family: PT Sans Narrow;
+  font-family: PT Sans Narrow, sans-serif;
   text-transform: uppercase;
   border: 2px solid #960062;
   padding: .5em;
@@ -71,6 +71,7 @@ nav ul li {
 header nav ul li a {
   color: #eccee2;
   text-decoration: none;
+  con
 }
 
 main {
