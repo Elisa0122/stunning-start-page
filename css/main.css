@@ -112,7 +112,7 @@ section ul {
 
 section ul li {
   display: grid;
-  grid-template-rows: .8fr 2.5fr .8fr;
+  grid-template-rows: .7fr 2.6fr .7fr;
   border: 2px solid #afafaf;
   border-radius: 6px;
   margin: 0;
@@ -144,7 +144,7 @@ div {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-top: 1em;
+  margin-top: .5em;
   width: auto;
   box-sizing: content-box;
   height: 50%;
