@@ -103,6 +103,7 @@ h2 ul {
 section ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40% 40%;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -111,7 +112,7 @@ section ul {
 
 section ul li {
   display: grid;
-  grid-template-rows: auto;
+  grid-template-rows: .8fr 2.5fr .8fr;
   border: 2px solid #afafaf;
   border-radius: 6px;
   margin: 0;
@@ -132,6 +133,7 @@ section ul li img {
   grid-row: 2;
   text-align: center;
   width: 100%;
+  height: 100%;
 }
 
 section {
@@ -145,10 +147,11 @@ div {
   margin-top: 1em;
   width: auto;
   box-sizing: content-box;
+  height: 50%;
 }
 
 section ul div img {
-  width: 35%;
+  width: 15%;
   order: -1;
   background-color: #bebebe;
   border-radius: 1em 0 0 1em;
@@ -163,7 +166,7 @@ section ul div strong {
   font-style: italic;
   width: auto;
   box-sizing: border-box;
-  font-size: .5em;
+  font-size: 1em;
 }
 
 footer {
